@@ -3,7 +3,9 @@
 int main()
 {
 	int sum = 0, count = 0;
+	
 	int number=0;
+	scanf("%d",&number);
 
 	while (number != -1) {
 			sum += number;
