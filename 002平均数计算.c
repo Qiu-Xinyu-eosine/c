@@ -11,12 +11,11 @@ int main()
 			scanf("%d", &number);
 		}
 
-double average = 1.0 * sum / count;
-
-	if (count=0) {
-		printf("Ã»ÓĞÊäÈëÓĞĞ§Êı¾İ¡£");
+	if (count==0) {
+		printf("æ²¡æœ‰è¾“å…¥æœ‰æ•ˆæ•°æ®ã€‚");
 	}
 	else {
-		printf("Æ½¾ùÊıÎª%f", average);
+		double average = 1.0 * sum / count;
+		printf("å¹³å‡æ•°ä¸º%f", average);
 	}
 }
